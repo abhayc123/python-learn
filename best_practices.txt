@@ -1,0 +1,9 @@
+1 . 
+
+s = ''
+for p in parts:
+s += p
+
+This runs quite a bit slower than using the join() method, mainly because each +=
+operation creates a new string object. You’re better off just collecting all of the parts first
+and then joining them together at the end

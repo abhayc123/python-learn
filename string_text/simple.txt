@@ -1,0 +1,3 @@
+This is a simple text    file.
+We have write simple text here . 
+I have to change that .
